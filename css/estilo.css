@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(177, 177, 231);
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+h1{
+    background-color: blueviolet;
+    text-align: center;
+}
+h2{
+    background-color: midnightblue;
+    text-align: center;
+    color: azure;
+}
+h3{
+    background-color: midnightblue;
+    text-align: center;
+    color: azure;
+}
