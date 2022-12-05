@@ -1,0 +1,16 @@
+body{
+    background-color:rgb(143, 201, 224);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    background-color: dodgerblue;
+    color:midnightblue;
+    text-align:center
+    
+}
+h2{
+    color:darkblue;
+}
+h3{
+    color:blue;
+}
