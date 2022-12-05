@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiperlinks</title>
+</head>
+<body>
+    <h1>Hiperlinks</h1>
+    <p>Hiperlinks são ligações em hipertextos que ao serem clicados levaram o usuário para um certo destino, esses destinos podem ser:
+        <ol>
+            <li><a href="#externo">Externos</a></li>
+            <li><a href="#interno">Internos</a></li>
+            <li><a href="#arquivo">Arquivos</a></li>
+            <li><a href="#email">Endereços de email</a></li>
+        </ol></p>
+    <h1>Marcação de Hiperlink</h1>
+    <p>A marcação de hiperlinks é feito pela tag &lt;a&gt; e atributo <b>href</b> que referencia algum conteúdo.
+        <h2>Sintaxe</h2>
+        <p>&lt;a href="endereço"&gt;Conteúdo referenciado clicável&lt;/a&gt;</p> <br>
+    </p>
+    <h1 id="externo">Hiperlink Externo</h1>
+    <p>Quando o hiperlink é externo, quer dizer que o hiperlink levará para outra página, onde o "endereço" será substituído pelo endereço URL da página de destino. Neste tipo é possível colocar o atributo <b>target</b>, que especifica se o link será aberto na própria pagina ou em outra guia.
+        <h2>Sintaxe</h2>
+            <p>&lt;a href="endereço URL" target= <b>"_self"</b> ou <b>"_blank"</b>&gt;Conteúdo referenciado clicável&lt;/a&gt; <br>
+            Onde "_self" levará na mesma pagina e "_blank" para uma nova guia.</p>
+    <h1 id="interno">Hiperlink Interno</h1>
+    <p>No hiperlink interno, o hiperlink levará o usuário para uma parte em específico da página.
+        <h2>Sintaxe</h2>
+        <p>Primeiro, é preciso dar um <b>id</b> ou <b>nome</b> para o destino, sendo assim: <br>
+        &lt;a name="nome"&gt;Conteúdo&lt;/a&gt; ou id="nome", o id sendo um atributo para uma tag. <br>
+        Depois de ter nomeado o destino, é apenas necessário utilizar &lt;a href="#nome">Conteúdo referenciado clicável&lt;/a&gt;</p>
+    </p>
+    <h1 id="arquivo">Hiperlink de Arquivo</h1>
+    <p>Nesse tipo, o hiperlink permitirá o download de algum arquivo.
+        <h2>Sintaxe</h2>
+        <p>&lt;a href="pasta" download="arquivo" type="tipo"&gt;Conteúdo para Download&lt;/a&gt; <br>
+        Existem diversos tipos para esse hiperlink, o link para todos os tipos consta aqui: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types">Common MIME Types</a></p>
+    </p>
+    <h1 id="email">Hiperlink de Endereço Email</h1>
+    <p>Nele, o hiperlink leva a um endereço email.
+        <h2>Sintaxe</h2>
+        <p>&lt;a href="mailto:email"&gt;email&lt;/a&gt;</p>
+    </p>
+</body>
+</html>
