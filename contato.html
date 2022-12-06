@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>Interessado no Projeto na Trilha do Aprendizado</h1>
-    <form>
+    <form name="formulario" action="cadastra.php" metho="post" onsubmit="return Enviar()">
         <label for="nome">Nome Completo</label><br>
         <input type="text" id="nome" placeholder="Digite o seu nome"><br><br>
         <label for="email">Email</label><br>
@@ -18,7 +18,7 @@
         <label for="datanasc">Data de Nascimento</label><br>
         <input type="date" id="datanasc"><br><br>
         <textarea id="comentario" placeholder="Deixe o seu comentário"></textarea><br>
-        <input type="submit" class="enviar" value="Enviar" onclick="Enviar()">
+        <input type="submit" class="enviar" value="Enviar">
     </form>
 </body>
 </html>
